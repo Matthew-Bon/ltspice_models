@@ -1,0 +1,24 @@
+Circuit: * C:\Users\Matt\Documents\git\ltspice_models\phase_shift_oscillator\phase_shift_oscillator.asc
+
+Limiting rise time of source i1 to 1e-007
+Limiting fall time of source i1 to 1e-007
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 0.47668 to 0.47668
+
+Date: Tue Jun 06 01:15:27 2023
+Total elapsed time: 13.411 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3803873
+traniter = 3803869
+tranpoints = 1086626
+accept = 814100
+rejected = 272527
+matrix size = 15
+fillins = 11
+solver = Normal
+Matrix Compiler1:      75 opcodes  0.2/[0.1]/0.1
+Matrix Compiler2:     125 opcodes  0.1/[0.1]/0.1
+
