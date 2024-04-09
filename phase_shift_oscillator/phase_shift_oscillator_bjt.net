@@ -1,0 +1,23 @@
+* C:\Users\Matt\Documents\git\ltspice_models\phase_shift_oscillator\phase_shift_oscillator_bjt.asc
+Q1 N001 N003 N006 0 2N3904
+I1 N003 0 PULSE(0 1uA 0 0 0 1us 1m 1000)
+R1 N003 0 10K
+R2 N005 0 10K
+R3 N004 0 10K
+C1 N003 N005 10n
+C2 N005 N004 10n
+C3 N004 N001 10n
+R4 N006 0 390
+C4 N006 0 100µ
+R5 9V N001 4.7K
+R6 9V N003 100K
+V1 9V 0 9
+C5 N002 N001 10µ
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Matt\Documents\LTspiceXVII\lib\cmp\standard.bjt
+* F=1/(2*3.14*sqrt(6)*C*R)
+* Sig_Out
+.tran 10
+.backanno
+.end
